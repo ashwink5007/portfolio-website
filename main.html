@@ -1,0 +1,428 @@
+<!-- File: main.html -->
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <!-- HOW TO EDIT:
+       - TODO: Replace NAME, SHORT BIO, EMAIL, LINKS, and PROFILE_IMAGE_URL below.
+       - For projects: edit /projects.json or the inline #projects-data script.
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K. Ashwin — Aspiring Full-Stack Developer | Portfolio</title>
+  <meta name="description" content="K. Ashwin — IT student & aspiring full-stack developer. Portfolio: projects, skills, education, and contact." />
+  <link rel="icon" href="favicon.svg" />
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="K. Ashwin — Portfolio" />
+  <meta property="og:description" content="Aspiring full-stack developer. Projects, skills, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80&auto=format&fit=crop" />
+  <link rel="canonical" href="https://your-portfolio.example.com/" />
+  <!-- Preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script>
+    // Inline critical theme hint (fast FCP)
+    try {
+      const t = localStorage.getItem('theme');
+      if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  </script>
+  <!-- Structured Data JSON-LD (PERSON + Project examples) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"NAME",
+    "url":"https://your-portfolio.example.com/",
+    "sameAs":["https://github.com/yourusername","https://linkedin.com/in/yourusername"],
+    "jobTitle":"Aspiring Full-Stack Developer",
+    "description":"IT student building web applications with React, Node.js and modern cloud tools."
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header" role="banner" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Go to home">K. Ashwin</a>
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" aria-label="Toggle dark mode" class="btn-icon">🌓</button>
+        <a class="btn primary" href="#projects">View Projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    <!-- HERO -->
+    <section id="home" class="hero section reveal" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title" class="hero-title"><span class="accent">K. Ashwin</span> — Aspiring Full-Stack Developer</h1>
+          <p class="hero-sub">Passionate IT student with a strong foundation in web development, data structures, and cloud computing. Skilled at building modern, responsive applications using both frontend and backend technologies. Curious learner exploring new frameworks and tools to improve efficiency and user experience. Open to internships and impactful projects.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn cta">See Projects</a>
+            <a href="resume.pdf" class="btn ghost" download>Download Resume</a>
+          </div>
+          <p class="muted">Email: <a href="mailto:ashwin.itstudent@example.com" id="email-link">ashwin.itstudent@example.com</a></p>
+        </div>
+        <div class="hero-avatar">
+          <img alt="Profile avatar of K. Ashwin" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80&auto=format&fit=crop" width="360" height="360" class="avatar" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About</h2>
+        <p class="lead">Passionate IT student with a strong foundation in web development, data structures, and cloud computing. I build modern, responsive applications and enjoy learning new frameworks and tools to improve efficiency and user experience.</p>
+        <div class="two-col">
+          <div>
+            <h3>What I do</h3>
+            <ul>
+              <li>Frontend development with React, Tailwind CSS, and accessible UI</li>
+              <li>Backend APIs with Node.js/Express and databases (MongoDB, MySQL)</li>
+              <li>Deployments using Vercel/Netlify and Docker fundamentals</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Quick facts</h3>
+            <ul>
+              <li>Open to internships (B.Tech IT, 2023–2027)</li>
+              <li>Languages & Tools: JavaScript, Java, Git/GitHub, VS Code</li>
+              <li>Prefer readable, accessible, and maintainable code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <p class="muted">Proficiency bars are indicative and can be adjusted as you grow.</p>
+        <div class="skills-grid">
+          <div class="skill-block">
+            <h4>Frontend</h4>
+            <div class="skill"><span>HTML & CSS</span><div class="bar"><div class="bar-fill" data-level="90"></div></div></div>
+            <div class="skill"><span>JavaScript (ES6+)</span><div class="bar"><div class="bar-fill" data-level="80"></div></div></div>
+            <div class="skill"><span>React.js</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+            <div class="skill"><span>Tailwind CSS</span><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+          </div>
+          <div class="skill-block">
+            <h4>Backend & DB</h4>
+            <div class="skill"><span>Node.js</span><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+            <div class="skill"><span>Express.js</span><div class="bar"><div class="bar-fill" data-level="65"></div></div></div>
+            <div class="skill"><span>MongoDB / MySQL</span><div class="bar"><div class="bar-fill" data-level="60"></div></div></div>
+            <div class="skill"><span>Java</span><div class="bar"><div class="bar-fill" data-level="55"></div></div></div>
+          </div>
+          <div class="skill-block">
+            <h4>Tools</h4>
+            <div class="skill"><span>Git/GitHub</span><div class="bar"><div class="bar-fill" data-level="85"></div></div></div>
+            <div class="skill"><span>VS Code</span><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+            <div class="skill"><span>Postman</span><div class="bar"><div class="bar-fill" data-level="65"></div></div></div>
+            <div class="skill"><span>Figma</span><div class="bar"><div class="bar-fill" data-level="55"></div></div></div>
+          </div>
+          <div class="skill-block">
+            <h4>Cloud</h4>
+            <div class="skill"><span>Vercel / Netlify</span><div class="bar"><div class="bar-fill" data-level="60"></div></div></div>
+            <div class="skill"><span>AWS (EC2, S3 basics)</span><div class="bar"><div class="bar-fill" data-level="45"></div></div></div>
+            <div class="skill"><span>Docker fundamentals</span><div class="bar"><div class="bar-fill" data-level="40"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="projects-title">Projects</h2>
+          <div class="controls">
+            <input id="search-input" type="search" placeholder="Search projects..." aria-label="Search projects" />
+            <select id="sort-select" aria-label="Sort projects">
+              <option value="featured">Featured</option>
+              <option value="newest">Newest</option>
+              <option value="year-desc">Year (desc)</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="tag-filters" class="tag-filters" aria-hidden="false" role="list"></div>
+
+        <!-- NOTE: Pre-rendered project cards are included so content is visible with JS disabled.
+             Edit /projects.json to add or change projects; app.js will load and enhance dynamically.
+        -->
+      <div id="projects-grid" class="projects-grid" role="list">
+          <!-- Project cards (static fallback, mirrored in projects.json) -->
+          <article class="project-card" data-id="proj-1" role="listitem">
+            <div class="card-media">
+              <img alt="Portfolio site screenshot" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=60&auto=format&fit=crop" loading="lazy" width="800" height="450">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Portfolio Website</h3>
+              <p class="card-desc">Personal responsive portfolio built with vanilla JS; accessible and performance-focused.</p>
+              <div class="card-meta">
+                <div class="tags"><span>#frontend</span><span>#portfolio</span></div>
+                <div class="card-actions">
+                  <button class="btn small view-btn" data-id="proj-1">View</button>
+                  <a class="link" href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-id="proj-2" role="listitem">
+            <div class="card-media">
+              <img alt="Deepfake voice detector app screenshot" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60&auto=format&fit=crop" loading="lazy" width="800" height="450">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Deepfake Voice Detector</h3>
+              <p class="card-desc">ML-powered app detecting voice deepfakes for Indian languages; research prototype.</p>
+              <div class="card-meta">
+                <div class="tags"><span>#ml</span><span>#audio</span></div>
+                <div class="card-actions">
+                  <button class="btn small view-btn" data-id="proj-2">View</button>
+                  <a class="link" href="https://github.com/yourusername/deepfake-voice-detector" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-id="proj-3" role="listitem">
+            <div class="card-media">
+              <img alt="REST API microservice" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=60&auto=format&fit=crop" loading="lazy" width="800" height="450">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Notes API (REST)</h3>
+              <p class="card-desc">Lightweight REST API with JWT auth and PostgreSQL; deployed via Docker container.</p>
+              <div class="card-meta">
+                <div class="tags"><span>#backend</span><span>#api</span></div>
+                <div class="card-actions">
+                  <button class="btn small view-btn" data-id="proj-3">View</button>
+                  <a class="link" href="https://github.com/yourusername/notes-api" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-id="proj-4" role="listitem">
+            <div class="card-media">
+              <img alt="UI component library screenshot" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=60&auto=format&fit=crop" loading="lazy" width="800" height="450">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">UI Components Library</h3>
+              <p class="card-desc">Reusable UI components and design tokens for team projects; story-driven docs.</p>
+              <div class="card-meta">
+                <div class="tags"><span>#ui</span><span>#design-systems</span></div>
+                <div class="card-actions">
+                  <button class="btn small view-btn" data-id="proj-4">View</button>
+                  <a class="link" href="https://github.com/yourusername/ui-kit" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-id="proj-5" role="listitem">
+            <div class="card-media">
+              <img alt="Research project screenshot" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=60&auto=format&fit=crop" loading="lazy" width="800" height="450">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Energy Resource Solver (Research)</h3>
+              <p class="card-desc">Academic research on resource allocation algorithms; includes simulation & visualization.</p>
+              <div class="card-meta">
+                <div class="tags"><span>#research</span><span>#algorithms</span></div>
+                <div class="card-actions">
+                  <button class="btn small view-btn" data-id="proj-5">View</button>
+                  <a class="link" href="https://github.com/yourusername/resource-solver" target="_blank" rel="noopener">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="edu" class="section reveal" aria-labelledby="edu-title">
+      <div class="container">
+        <h2 id="edu-title">Education & Certifications</h2>
+        <div class="two-col">
+          <div>
+            <h3>Education</h3>
+            <ul>
+              <li><strong>B.Tech in Information Technology</strong>, XYZ Institute of Technology, Chennai — 2023–2027 (ongoing)</li>
+              <li>Relevant courses: Data Structures, DBMS, Web Development, Computer Networks</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Certifications</h3>
+            <ul>
+              <li>AWS Cloud Practitioner Essentials — Amazon Web Services (2024)</li>
+              <li>Introduction to Databases — Stanford Online (2024)</li>
+              <li>Responsive Web Design — freeCodeCamp (2023)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 id="experience-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Web Development Intern — CodeCrafters Pvt Ltd</h4>
+            <p class="meta">Jun 2024 — Aug 2024</p>
+            <ul>
+              <li>Built a responsive dashboard with React and Tailwind CSS, reducing page load time by 25%.</li>
+              <li>Integrated REST APIs into the frontend for real-time data display.</li>
+              <li>Collaborated in an Agile team of 5 using GitHub for version control.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog / Notes -->
+    <section id="blog" class="section reveal" aria-labelledby="blog-title">
+      <div class="container">
+        <h2 id="blog-title">Notes / Blog (optional)</h2>
+        <p class="muted">Short posts about learning and project retrospectives. (Add via /content or blog.html)</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p>Prefer email: <a href="mailto:ashwin.itstudent@example.com">ashwin.itstudent@example.com</a> — or use the form.</p>
+          <p>GitHub: <a href="https://github.com/ashwin-it" target="_blank" rel="noopener">github.com/ashwin-it</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/ashwin-it" target="_blank" rel="noopener">linkedin.com/in/ashwin-it</a></p>
+          <a class="btn" href="https://calendly.com/yourusername/30min" target="_blank" rel="noopener">Schedule a chat</a>
+        </div>
+
+        <div>
+          <!-- Netlify forms example. To enable, follow README instructions. -->
+          <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden"><label>Don’t fill: <input name="bot-field"></label></p>
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <div class="form-actions">
+              <button type="submit" class="btn">Send</button>
+              <a class="btn ghost" id="mailto-fallback" href="mailto:ashwin.itstudent@example.com?subject=Portfolio%20Contact">Mail Me</a>
+            </div>
+            <div id="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> NAME • Built with minimal JS • <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Accessible Project Detail Modal (hidden by default) -->
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Project details">
+    <div class="modal-inner" role="document">
+      <button id="modal-close" class="modal-close" aria-label="Close project details">✕</button>
+      <div id="modal-content"></div>
+    </div>
+    <div class="modal-backdrop" data-dismiss="true"></div>
+  </div>
+
+  <!-- Inline fallback data (used when fetch fails for local file:// usage) -->
+  <script id="projects-data" type="application/json">
+  <!-- File: project.json (inline fallback copy) -->
+  [
+    {
+      "id":"proj-1",
+      "title":"Portfolio Website",
+      "shortDescription":"Personal responsive portfolio built with vanilla JS; accessible and performance-focused.",
+      "longDescription":"A hand-coded, accessible portfolio with progressive enhancement, animations, and a dynamic project showcase. Built to highlight projects, resume, and contact options with an emphasis on performance.",
+      "techStack":["HTML","CSS","Vanilla JS"],
+      "images":["https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80&auto=format&fit=crop"],
+      "githubUrl":"https://github.com/yourusername/portfolio",
+      "liveDemoUrl":"",
+      "tags":["frontend","portfolio"],
+      "year":2025,
+      "featured":true
+    },
+    {
+      "id":"proj-2",
+      "title":"Deepfake Voice Detector",
+      "shortDescription":"ML-powered app detecting voice deepfakes for Indian languages; research prototype.",
+      "longDescription":"Research prototype that uses Wav2Vec2 and ECAPA-TDNN embeddings to detect deepfake audio with a web demo and model analysis.",
+      "techStack":["Python","PyTorch","Streamlit","Wav2Vec2"],
+      "images":["https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&auto=format&fit=crop"],
+      "githubUrl":"https://github.com/yourusername/deepfake-voice-detector",
+      "liveDemoUrl":"",
+      "tags":["ml","audio","research"],
+      "year":2025,
+      "featured":true
+    },
+    {
+      "id":"proj-3",
+      "title":"Notes API (REST)",
+      "shortDescription":"Lightweight REST API with JWT auth and PostgreSQL; deployed via Docker.",
+      "longDescription":"A small RESTful microservice for note-taking with JWT authentication, testing, and Docker-based deployment for simple hosting.",
+      "techStack":["Node.js","Express","PostgreSQL","Docker"],
+      "images":["https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&q=80&auto=format&fit=crop"],
+      "githubUrl":"https://github.com/yourusername/notes-api",
+      "liveDemoUrl":"",
+      "tags":["backend","api"],
+      "year":2024,
+      "featured":false
+    },
+    {
+      "id":"proj-4",
+      "title":"UI Components Library",
+      "shortDescription":"Reusable UI components and design tokens with Storybook for documentation.",
+      "longDescription":"A curated set of accessible UI components with design tokens, responsive patterns, and Storybook docs for team use.",
+      "techStack":["React","Storybook","CSS Modules"],
+      "images":["https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80&auto=format&fit=crop"],
+      "githubUrl":"https://github.com/yourusername/ui-kit",
+      "liveDemoUrl":"",
+      "tags":["ui","design-systems"],
+      "year":2023,
+      "featured":false
+    },
+    {
+      "id":"proj-5",
+      "title":"Energy Resource Solver",
+      "shortDescription":"Academic research on allocation algorithms with simulation & visualization.",
+      "longDescription":"Simulation framework and visual analysis for resource allocation algorithms in constrained networks. Includes plotting, benchmarks, and extensible modules.",
+      "techStack":["Python","NumPy","D3.js"],
+      "images":["https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80&auto=format&fit=crop"],
+      "githubUrl":"https://github.com/yourusername/resource-solver",
+      "liveDemoUrl":"",
+      "tags":["research","algorithms"],
+      "year":2022,
+      "featured":false
+    }
+  ]
+  </script>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

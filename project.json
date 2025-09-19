@@ -1,0 +1,67 @@
+[
+  {
+    "id":"proj-1",
+    "title":"Portfolio Website",
+    "shortDescription":"Personal responsive portfolio built with vanilla JS; accessible and performance-focused.",
+    "longDescription":"A hand-coded, accessible portfolio with progressive enhancement, animations, and a dynamic project showcase. Built to highlight projects, resume, and contact options with an emphasis on performance.",
+    "techStack":["HTML","CSS","Vanilla JS"],
+    "images":["https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80&auto=format&fit=crop"],
+    "githubUrl":"https://github.com/yourusername/portfolio",
+    "liveDemoUrl":"",
+    "tags":["frontend","portfolio"],
+    "year":2025,
+    "featured":true
+  },
+  {
+    "id":"proj-2",
+    "title":"Deepfake Voice Detector",
+    "shortDescription":"ML-powered app detecting voice deepfakes for Indian languages; research prototype.",
+    "longDescription":"Research prototype that uses Wav2Vec2 and ECAPA-TDNN embeddings to detect deepfake audio with a web demo and model analysis.",
+    "techStack":["Python","PyTorch","Streamlit","Wav2Vec2"],
+    "images":["https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&auto=format&fit=crop"],
+    "githubUrl":"https://github.com/yourusername/deepfake-voice-detector",
+    "liveDemoUrl":"",
+    "tags":["ml","audio","research"],
+    "year":2025,
+    "featured":true
+  },
+  {
+    "id":"proj-3",
+    "title":"Notes API (REST)",
+    "shortDescription":"Lightweight REST API with JWT auth and PostgreSQL; deployed via Docker.",
+    "longDescription":"A small RESTful microservice for note-taking with JWT authentication, testing, and Docker-based deployment for simple hosting.",
+    "techStack":["Node.js","Express","PostgreSQL","Docker"],
+    "images":["https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&q=80&auto=format&fit=crop"],
+    "githubUrl":"https://github.com/yourusername/notes-api",
+    "liveDemoUrl":"",
+    "tags":["backend","api"],
+    "year":2024,
+    "featured":false
+  },
+  {
+    "id":"proj-4",
+    "title":"UI Components Library",
+    "shortDescription":"Reusable UI components and design tokens with Storybook for documentation.",
+    "longDescription":"A curated set of accessible UI components with design tokens, responsive patterns, and Storybook docs for team use.",
+    "techStack":["React","Storybook","CSS Modules"],
+    "images":["https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600&q=80&auto=format&fit=crop"],
+    "githubUrl":"https://github.com/yourusername/ui-kit",
+    "liveDemoUrl":"",
+    "tags":["ui","design-systems"],
+    "year":2023,
+    "featured":false
+  },
+  {
+    "id":"proj-5",
+    "title":"Energy Resource Solver",
+    "shortDescription":"Academic research on allocation algorithms with simulation & visualization.",
+    "longDescription":"Simulation framework and visual analysis for resource allocation algorithms in constrained networks. Includes plotting, benchmarks, and extensible modules.",
+    "techStack":["Python","NumPy","D3.js"],
+    "images":["https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80&auto=format&fit=crop"],
+    "githubUrl":"https://github.com/yourusername/resource-solver",
+    "liveDemoUrl":"",
+    "tags":["research","algorithms"],
+    "year":2022,
+    "featured":false
+  }
+]
