@@ -1,0 +1,10 @@
+{
+  "total_images": 1747,
+  "total_labels": 1747,
+  "class_distribution": {
+    "cow": 779,
+    "buffalo": 0,
+    "unknown": 968
+  },
+  "dataset_ready": true
+}
