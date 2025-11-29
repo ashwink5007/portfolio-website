@@ -5,7 +5,7 @@ import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
-  {
+  /*{
     title: 'E-Commerce Platform',
     description: 'A modern e-commerce platform with real-time inventory management and seamless checkout experience.',
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
@@ -23,8 +23,8 @@ const projects = [
     description: 'Full-featured social platform with real-time messaging and content sharing.',
     tags: ['React Native', 'Firebase', 'Redux'],
     gradient: 'from-pink-500 to-orange-500',
-  },
-];
+  },*/
+]
 
 export const Projects = () => {
   const ref = useRef(null);

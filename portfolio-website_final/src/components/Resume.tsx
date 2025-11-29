@@ -21,10 +21,13 @@ export const Resume = () => {
   }, []);
 
   const handleDownload = () => {
-    // In a real app, this would download your actual resume
-    console.log('Downloading resume...');
-    // You can replace this with actual file download logic
-    // window.open('/path-to-your-resume.pdf', '_blank');
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/Ashwin_CV.pdf';
+    link.download = 'Ashwin_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

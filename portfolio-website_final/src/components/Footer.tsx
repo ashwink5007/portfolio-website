@@ -69,7 +69,7 @@ export const Footer = () => {
                 className="glass hover:glow-primary transition-all"
                 asChild
               >
-                <a href="mailto:hello@example.com">
+                <a href="mailto:alagarashwin.k@example.com">
                   <Mail className="w-5 h-5" />
                 </a>
               </Button>
