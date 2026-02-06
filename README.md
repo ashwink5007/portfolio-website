@@ -83,13 +83,6 @@ Welcome to my GitHub portfolio! This repository showcases my projects, skills, a
 
 ---
 
-## 📫 Connect With Me
-
-- GitHub: [https://github.com/your-username](https://github.com/your-username)
-- LinkedIn: *Add your LinkedIn profile*
-- Email: *your-email@example.com*
-
----
 
 ⭐ **If you like my work, consider starring my repositories!**  
 Thanks for visiting my portfolio 🙌
