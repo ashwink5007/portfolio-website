@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# 👋 Hi, I'm Ashwin!
 
-## Project info
+🚀 Aspiring Full-Stack Developer | AI/ML Enthusiast | Problem Solver  
+🎓 Student | 💻 Tech Explorer | 🌱 Continuous Learner  
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Welcome to my GitHub portfolio! This repository showcases my projects, skills, and learning journey in **Web Development, Machine Learning, and AI-based applications**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧠 About Me
 
-**Use Lovable**
+- 🔹 Passionate about building **real-world, impactful projects**
+- 🔹 Interested in **AI ethics, deepfake detection, and sustainability tech**
+- 🔹 Actively improving **DSA & problem-solving skills**
+- 🔹 Love participating in **hackathons & open-source contributions**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Skills & Technologies
 
-**Use your preferred IDE**
+### 💻 Programming Languages
+- Java  
+- Python  
+- JavaScript  
+- C (Basics)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🌐 Web Development
+- HTML5  
+- CSS3  
+- JavaScript  
+- React (Learning)  
+- Node.js (Learning)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🤖 Machine Learning & AI
+- Supervised Learning  
+- Audio Processing (MFCC, Wav2Vec2, ECAPA-TDNN)  
+- Deepfake Voice Detection  
+- Model Training & Evaluation  
 
-Follow these steps:
+### 🧰 Tools & Platforms
+- Git & GitHub  
+- VS Code  
+- Streamlit  
+- Hugging Face Spaces  
+- Linux (Basics)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Featured Projects
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🎤 VocalProof – DeepFake Voice Detection
+- Real-time multilingual deepfake voice detection system
+- Supports Indian languages
+- Uses ML & deep learning audio embeddings  
+🔗 *Project link coming soon*
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🌍 Charity Social Platform (Instagram-like Web App)
+- Community-based pages for NGOs & donors
+- AI-powered donor suggestions
+- Focused on social impact  
 
-**Edit a file directly in GitHub**
+### 📅 Event Management Static Website
+- Single-page HTML project
+- My **first GitHub commit project**
+- Clean UI and responsive layout
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📈 Learning & Goals
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- 📌 Master **Full-Stack Development**
+- 📌 Become strong in **DSA & system thinking**
+- 📌 Build **industry-ready ML projects**
+- 📌 Secure an **internship / placement opportunity**
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🏆 Achievements & Activities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🧠 Participated in **AI ethics hackathons**
+- 💡 Solved **LeetCode problems** (beginner → intermediate)
+- 🧑‍💻 Working on **open-source & real-world projects**
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📫 Connect With Me
 
-## Can I connect a custom domain to my Lovable project?
+- GitHub: [https://github.com/your-username](https://github.com/your-username)
+- LinkedIn: *Add your LinkedIn profile*
+- Email: *your-email@example.com*
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ **If you like my work, consider starring my repositories!**  
+Thanks for visiting my portfolio 🙌
