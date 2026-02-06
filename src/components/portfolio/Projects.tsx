@@ -77,7 +77,7 @@ const Projects = () => {
                     {/* Links */}
                     <div className="flex gap-3">
                       <a
-                        href="#"
+                        href="https://github.com/ashwink5007/voiceshielddetection"
                         className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium bg-accent text-accent-foreground rounded-lg hover:bg-accent-hover transition-colors"
                       >
                         <Github size={16} />

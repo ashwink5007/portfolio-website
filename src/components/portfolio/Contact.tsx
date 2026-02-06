@@ -47,7 +47,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/alagar-ashwin-k-625444283"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center p-6 bg-primary-foreground/5 backdrop-blur rounded-xl border border-primary-foreground/10 hover:bg-primary-foreground/10 hover:border-accent/50 transition-all duration-300"
@@ -60,7 +60,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/ashwink5007"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center p-6 bg-primary-foreground/5 backdrop-blur rounded-xl border border-primary-foreground/10 hover:bg-primary-foreground/10 hover:border-accent/50 transition-all duration-300"
